@@ -6,7 +6,8 @@ body{
 
 .scorecard-container{
   display: flex;
-  justify-content: center;  
+  justify-content: center; 
+  flex-wrap: wrap; 
 }
 
 .heading{
@@ -124,4 +125,53 @@ body{
 
 .close-button:hover{
   background-color: rgb(230, 0, 0);
+}
+
+@media screen and (max-width: 350px )  {
+
+  .heading{
+    font-size: 18px;
+  }
+
+  .card-image{
+    width:220px;
+    height: 150px;
+  }
+
+  .card-container{  
+    width: 220px;
+    display: block;
+    margin: 10px 35px;
+  }
+  .card-score-symbol{
+    margin: 16px 0;
+    height: 40px;
+  }
+  
+  .card-score{
+    font-size: 30px;
+    margin: 10px 30px;
+  }
+  
+  .card-scores{
+    font-size: 18px;
+  }
+
+  .card-btn{
+    padding: 10px 30px;
+    font-size: 18px;
+    margin: 20px auto;
+  }
+
+  .winner-text{
+    height: 150px;
+    width: 300px;
+    font-size: 25px;
+  }
+
+  .close-button{
+    bottom: 5px;
+    right: 5px;
+    padding: 5px 18px;
+  }
 }
