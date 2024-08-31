@@ -127,7 +127,7 @@ body{
   background-color: rgb(230, 0, 0);
 }
 
-@media screen and (max-width: 350px )  {
+@media screen and (max-width: 390px )  {
 
   .heading{
     font-size: 18px;
@@ -158,6 +158,9 @@ body{
   }
 
   .card-btn{
+    position: fixed;
+    bottom: 10px;
+    left: 25%;
     padding: 10px 30px;
     font-size: 18px;
     margin: 20px auto;
